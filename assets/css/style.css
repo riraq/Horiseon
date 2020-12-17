@@ -1,3 +1,4 @@
+/* Includes padding and border dimensions to be included in elements total width and height */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,10 +11,12 @@
     display: table;
   }
 
+/* Gives background color for page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets style for header at top of page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,15 +25,18 @@ header {
     min-width: 1040px;
 }
 
+/* Moves header logo inline and changes font size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes color of "seo" in Horiseon */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Moves navigation (nav) menu to the right and styles it */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,24 +45,29 @@ header div {
     font-size: 20px;
 }
 
+/* Removes bullet points next to items in nav menu */
 header div ul {
     list-style-type: none;
 }
 
+/* Places nav menu inline with Horiseon logo */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes color of nav menu items and removes underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets font size of all non-header text on page */
 p {
     font-size: 16px;
 }
 
+/* Displays image directly under header */
 .hero {
     height: 800px;
     width: 100%;
@@ -66,20 +77,24 @@ p {
     background-position: center;
 }
 
+/* Contains separate float elements to allow positioning with a minimum width to prevent boxes from shifting */
 section {
     min-width: 880px;
 }
 
+/* Used to float image to left of container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used to float image to right of container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styles the main content on the page and helps keep the boxes from shifting when the screen size gets smaller */
 .content {
     width: 75%;
     min-width: 655px;
@@ -87,6 +102,7 @@ section {
     margin-left: 20px;
 }
 
+/* Styles the sidebar and floats it to the right of the main content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,54 +115,64 @@ section {
     background-color: #2589bd;
 }
 
+/* Styles the text under Lead heading */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the text under Brand heading */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the text under Cost heading */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the Lead heading */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the Brand heading */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the Cost heading */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles image under the Lead heading */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styles image under the Brand heading */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styles image under the Cost heading */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styles Search Engine Optimization section in content */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -156,6 +182,7 @@ section {
     color: #ffffff;
 }
 
+/* Styles Online Reputation Management section in content */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,6 +192,7 @@ section {
     color: #ffffff;
 }
 
+/* Styles Social Media Marketing section in content */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -174,33 +202,40 @@ section {
     color: #ffffff;
 }
 
+/* Styles image in sidebar*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Styles image in sidebar */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Styles image in sidebar */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Styles heading in sidebar */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styles heading in sidebar */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styles heading in sidebar */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styles footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -208,6 +243,7 @@ section {
     text-align: center;
 }
 
+/* Styles heading in footer */
 .footer h2 {
     font-size: 20px;
 }
