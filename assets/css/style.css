@@ -115,58 +115,20 @@ section {
     background-color: #2589bd;
 }
 
-/* Styles the text under Lead heading */
-.benefit-lead {
+/* Styles the text in sidebar */
+.benefit-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Styles the text under Brand heading */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Styles the text under Cost heading */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Styles the Lead heading */
-.benefit-lead h3 {
+/* Styles the headings in sidebar */
+.benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Styles the Brand heading */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Styles the Cost heading */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Styles image under the Lead heading */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Styles image under the Brand heading */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Styles image under the Cost heading */
-.benefit-cost img {
+/* Styles images in sidebar */
+.benefit-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
