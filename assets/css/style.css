@@ -78,7 +78,7 @@ p {
 }
 
 /* Contains separate float elements to allow positioning with a minimum width to prevent boxes from shifting */
-section {
+article {
     min-width: 880px;
 }
 
