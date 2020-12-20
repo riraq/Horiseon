@@ -77,9 +77,30 @@ p {
     background-position: center;
 }
 
-/* Contains separate float elements to allow positioning with a minimum width to prevent boxes from shifting */
+/* Contains separate elements to allow positioning with a minimum width to prevent boxes from shifting */
 article {
     min-width: 880px;
+}
+
+/* Styles headings in main content */
+.content-style h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles main content */
+.content-style {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles images in main content*/
+.content-style img {
+    max-height: 200px;
 }
 
 /* Used to float image to left of container */
@@ -115,12 +136,6 @@ article {
     background-color: #2589bd;
 }
 
-/* Styles the text in sidebar */
-.benefit-content {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 /* Styles the headings in sidebar */
 .benefit-content h3 {
     margin-bottom: 10px;
@@ -134,25 +149,10 @@ article {
     max-width: 150px;
 }
 
-/* Styles Search Engine Optimization section in content */
-.content-style {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+/* Styles the text in sidebar */
+.benefit-content {
+    margin-bottom: 32px;
     color: #ffffff;
-}
-
-/* Styles images in sidebar*/
-.content-style img {
-    max-height: 200px;
-}
-
-/* Styles headings in sidebar */
-.content-style h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Styles footer */
