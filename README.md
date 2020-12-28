@@ -1,4 +1,4 @@
-# HW1_Horiseon
+# Horiseon
 ## Description
 Horiseon Social Solution Services, Inc. is a company that provides Search Engine Optimization (SEO) services to companies. They make this happen by increasing companies visibility in search engines, giving control over what potential customers see in those searches, and increasing their social media presence in the appropriate markets through analytics.
 
